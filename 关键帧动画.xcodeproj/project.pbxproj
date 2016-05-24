@@ -15,6 +15,8 @@
 		684516AB1CF3F73700D1DC8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 684516A91CF3F73700D1DC8D /* LaunchScreen.storyboard */; };
 		684516B61CF3F73700D1DC8D /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 684516B51CF3F73700D1DC8D /* _____Tests.m */; };
 		684516C11CF3F73700D1DC8D /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 684516C01CF3F73700D1DC8D /* _____UITests.m */; };
+		684516CF1CF3F96000D1DC8D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 684516CE1CF3F96000D1DC8D /* QuartzCore.framework */; };
+		684516D11CF3FA4200D1DC8D /* mycenter_favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = 684516D01CF3FA4200D1DC8D /* mycenter_favorite.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		684516BC1CF3F73700D1DC8D /* 关键帧动画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "关键帧动画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		684516C01CF3F73700D1DC8D /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		684516C21CF3F73700D1DC8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		684516CE1CF3F96000D1DC8D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		684516D01CF3FA4200D1DC8D /* mycenter_favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mycenter_favorite.png; path = ../../../../image/mycenter/mycenter_favorite.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				684516CF1CF3F96000D1DC8D /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,7 @@
 		6845168F1CF3F73700D1DC8D = {
 			isa = PBXGroup;
 			children = (
+				684516CE1CF3F96000D1DC8D /* QuartzCore.framework */,
 				6845169A1CF3F73700D1DC8D /* 关键帧动画 */,
 				684516B41CF3F73700D1DC8D /* 关键帧动画Tests */,
 				684516BF1CF3F73700D1DC8D /* 关键帧动画UITests */,
@@ -105,6 +111,7 @@
 				6845169F1CF3F73700D1DC8D /* AppDelegate.m */,
 				684516A11CF3F73700D1DC8D /* ViewController.h */,
 				684516A21CF3F73700D1DC8D /* ViewController.m */,
+				684516D01CF3FA4200D1DC8D /* mycenter_favorite.png */,
 				684516A41CF3F73700D1DC8D /* Main.storyboard */,
 				684516A71CF3F73700D1DC8D /* Assets.xcassets */,
 				684516A91CF3F73700D1DC8D /* LaunchScreen.storyboard */,
@@ -245,6 +252,7 @@
 			files = (
 				684516AB1CF3F73700D1DC8D /* LaunchScreen.storyboard in Resources */,
 				684516A81CF3F73700D1DC8D /* Assets.xcassets in Resources */,
+				684516D11CF3FA4200D1DC8D /* mycenter_favorite.png in Resources */,
 				684516A61CF3F73700D1DC8D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +504,7 @@
 				684516C71CF3F73700D1DC8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		684516C81CF3F73700D1DC8D /* Build configuration list for PBXNativeTarget "关键帧动画Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +513,7 @@
 				684516CA1CF3F73700D1DC8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		684516CB1CF3F73700D1DC8D /* Build configuration list for PBXNativeTarget "关键帧动画UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +522,7 @@
 				684516CD1CF3F73700D1DC8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
